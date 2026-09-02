@@ -1,30 +1,30 @@
 * {
-margin: 0;
-padding: 0;
-} 
+    margin: 0;
+    padding: 0;
+}
 
 .cabecalho {
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4b3838;
+    background-color: #7e3e1c;
 }
 
 .cartao {
-    width: 260;
+    width: 260px;
     height: 200px;
 }
 
-.cartao_imagem {
+.cartao-imagem {
     width: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vw;
-    background-color: antiquewhite;
+    min-height: 100vh;
+    background-color: #f5f2f2;
 }
 
 main {
@@ -35,24 +35,24 @@ main {
 }
 
 .cabecalho-link {
-    color: aliceblue;
+    color: #fff;
     text-decoration: none;
 }
 
 h1 {
-    color: darkblue;
+    color: #fff;
     font-size: 24px;
 }
 
 footer {
-    background-color: #4b3838;
+    background-color: #7e3e1c;
     padding: 15px 25px;
-    color: aliceblue;
+    color: #fff;
 }
 
 .cartao-interno {
     position: relative;
-    transition: transfore 0.8s;
+    transition: transform 0.8s;
     transform-style: preserve-3d;
 }
 
@@ -63,12 +63,12 @@ footer {
 .cartao-frente, .cartao-verso {
     position: absolute;
     border-radius: 12px;
-    box-shadow: o 6px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     backface-visibility: hidden;
 }
 
 .cartao-verso {
-    transform: rotate(180deg);
+    transform: rotateY(180deg);
 }
 
 section {
