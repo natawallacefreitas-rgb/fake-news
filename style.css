@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7e3e1c;
+    background-color: #221c7e;
 }
 
 .cartao {
@@ -35,7 +35,7 @@ main {
 }
 
 .cabecalho-link {
-    color: #fff;
+    color: #696161;
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h1 {
 }
 
 footer {
-    background-color: #7e3e1c;
+    background-color: #1c6f7e;
     padding: 15px 25px;
     color: #fff;
 }
